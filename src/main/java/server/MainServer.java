@@ -73,55 +73,6 @@ public class MainServer extends Thread {
                         printStream.println("Ошибка при удалении!");
                     }
                     serializer.flush();
-                } else if ("PrintWorkersForAdmin".equals(str)) {
-                    WorkerDAO workerDAO = new WorkerDAO(conn);
-                    List<Worker> workers = workerDAO.findAllWorkers();
-                    serializer.writeObject(workers);
-                    serializer.flush();
-                } else if ("DeleteWorker".equals(str)) {
-                    WorkerDAO workerDAO = new WorkerDAO(conn);
-                    String worker = (String) deserializer.readObject();
-                    if (workerDAO.deleteWorkers(worker)) {
-                        printStream.println("Работник успешно удален!");
-                    } else {
-                        printStream.println("Ошибка при удалении!");
-                    }
-                    serializer.flush();
-                } else if ("PrintExpertsForAdmin".equals(str)) {
-                    ExpertDAO expertDAO = new ExpertDAO(conn);
-                    List<Expert> experts = expertDAO.findAllExperts();
-                    serializer.writeObject(experts);
-                    serializer.flush();
-                } else if ("ExpertRegistration".equals(str)) {
-                    UserDAO auth = new UserDAO(conn);
-                    ExpertDAO get = new ExpertDAO(conn);
-                    User user = (User) deserializer.readObject();
-                    Expert expert = (Expert) deserializer.readObject();
-                    if ((auth.getUser(user)) == 0) {
-                        if (auth.createNewUser(user)) {
-                            if (get.addNewExpert(expert, user.getLogin())) {
-                                printStream.println("Аккаунт успешно создан!");
-                            }
-                        } else
-                            printStream.println("Ошибка!");
-                    } else {
-                        printStream.println("Аккаунт с таким логином существует!");
-                    }
-                } else if ("WorkerRegistration".equals(str)) {
-                    UserDAO auth = new UserDAO(conn);
-                    User user = (User) deserializer.readObject();
-                    WorkerDAO get = new WorkerDAO(conn);
-                    Worker worker = (Worker) deserializer.readObject();
-                    if ((auth.getUser(user)) == 0) {
-                        if (auth.createNewUser(user)) {
-                            if (get.addNewWorker(worker, user.getLogin())) {
-                                printStream.println("Аккаунт успешно создан!");
-                            }
-                        } else
-                            printStream.println("Ошибка!");
-                    } else {
-                        printStream.println("Аккаунт с таким логином существует!");
-                    }
                 } else if ("ReadAllCreditsType".equals(str)) {
                     CreditDAO get = new CreditDAO(conn);
                     List<String> types = get.getAllCreditsType();
@@ -206,63 +157,6 @@ public class MainServer extends Thread {
                     Credit credit = (Credit) deserializer.readObject();
                     if (get.deleteCreditForAssessment(credit)) {
                         printStream.println("Кредит удален из отправки на оценку!");
-                    } else {
-                        printStream.println("Ошибка при удалении!");
-                    }
-                    serializer.flush();
-                } else if ("FindInfoAboutExpert".equals(str)) {
-                    ExpertDAO get = new ExpertDAO(conn);
-                    String columnName = (String) deserializer.readObject();
-                    String findString = (String) deserializer.readObject();
-                    List<Expert> experts = get.getFindExpert(columnName, findString);
-                    serializer.writeObject(experts);
-                    serializer.flush();
-                } else if ("EnterScaleSize".equals(str)) {
-                    AdminDAO get = new AdminDAO(conn);
-                    String size = (String) deserializer.readObject();
-                    if (get.addScaleSize(size)) {
-                        printStream.println("Размер шкалы добавлен!");
-                    } else {
-                        printStream.println("Ошибка при добавлении!");
-                    }
-                    serializer.flush();
-                } else if ("GetScale".equals(str)) {
-                    AdminDAO get = new AdminDAO(conn);
-                    int id = get.getScale();
-                    serializer.writeObject(id);
-                    serializer.flush();
-                } else if ("AddAssessments".equals(str)) {
-                    AdminDAO get = new AdminDAO(conn);
-                    String login = (String) deserializer.readObject();
-                    String expertAssessments = (String) deserializer.readObject();
-                    if (get.addAssessmets(login,expertAssessments)) {
-                        printStream.println("Оценки добавлены успешно!");
-                    } else {
-                        printStream.println("Введите правильный логин!");
-                    }
-                    serializer.flush();
-                }else if ("WatchAllSummAssessments".equals(str)) {
-                    ExpertDAO get = new ExpertDAO(conn);
-                    List<Expert> experts = get.watchAllSummAssessments();
-                    serializer.writeObject(experts);
-                    serializer.flush();
-                }else if ("GetAssByNameAndSName".equals(str)) {
-                    ExpertDAO get = new ExpertDAO(conn);
-                    String sName = (String) deserializer.readObject();
-                    String name = (String) deserializer.readObject();
-                    String string = get.getAssByNameAndSName(sName,name);
-                    printStream.println(string);
-                    serializer.flush();
-                }else if ("GetN".equals(str)) {
-                    CreditDAO get = new CreditDAO(conn);
-                    int N = get.countCreditForAssessment();
-                    serializer.writeObject(N);
-                    serializer.flush();
-                }else if ("DeleteExpert".equals(str)) {
-                    ExpertDAO expertDAO = new ExpertDAO(conn);
-                    String worker = (String) deserializer.readObject();
-                    if (expertDAO.deleteExpert(worker)) {
-                        printStream.println("Эксперт успешно удален!");
                     } else {
                         printStream.println("Ошибка при удалении!");
                     }

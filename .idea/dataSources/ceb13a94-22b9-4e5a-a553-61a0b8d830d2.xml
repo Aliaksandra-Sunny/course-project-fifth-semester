@@ -1118,254 +1118,168 @@
     <table id="282" parent="2" name="t_client_credit"/>
     <table id="283" parent="2" name="t_credit"/>
     <table id="284" parent="2" name="t_credittype"/>
-    <table id="285" parent="2" name="t_expert"/>
-    <table id="286" parent="2" name="t_user"/>
-    <table id="287" parent="2" name="t_worker"/>
-    <column id="288" parent="280" name="F_ID">
+    <table id="285" parent="2" name="t_user"/>
+    <column id="286" parent="280" name="F_ID">
       <Position>1</Position>
       <DataType>int(5)|0s</DataType>
       <NotNull>1</NotNull>
       <DefaultExpression>&apos;1&apos;</DefaultExpression>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="289" parent="280" name="F_SCALE">
+    <column id="287" parent="280" name="F_SCALE">
       <Position>2</Position>
       <DataType>int(5)|0s</DataType>
       <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <key id="290" parent="280" name="PRIMARY">
+    <key id="288" parent="280" name="PRIMARY">
       <NameSurrogate>1</NameSurrogate>
       <ColNames>F_ID</ColNames>
       <Primary>1</Primary>
     </key>
-    <column id="291" parent="281" name="F_ID">
+    <column id="289" parent="281" name="F_ID">
       <Position>1</Position>
       <DataType>int(5)|0s</DataType>
       <NotNull>1</NotNull>
       <SequenceIdentity>1</SequenceIdentity>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="292" parent="281" name="F_NAME">
+    <column id="290" parent="281" name="F_NAME">
       <Position>2</Position>
       <DataType>varchar(20)|0s</DataType>
       <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="293" parent="281" name="F_SURNAME">
+    <column id="291" parent="281" name="F_SURNAME">
       <Position>3</Position>
       <DataType>varchar(20)|0s</DataType>
       <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="294" parent="281" name="F_PASSPORT">
+    <column id="292" parent="281" name="F_PASSPORT">
       <Position>4</Position>
       <DataType>varchar(11)|0s</DataType>
       <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="295" parent="281" name="F_ID_USER_FK">
+    <column id="293" parent="281" name="F_ID_USER_FK">
       <Position>5</Position>
       <DataType>int(5)|0s</DataType>
       <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <key id="296" parent="281" name="PRIMARY">
+    <key id="294" parent="281" name="PRIMARY">
       <NameSurrogate>1</NameSurrogate>
       <ColNames>F_ID</ColNames>
       <Primary>1</Primary>
     </key>
-    <column id="297" parent="282" name="F_ID_CREDIT_FK">
+    <column id="295" parent="282" name="F_ID_CREDIT_FK">
       <Position>1</Position>
       <DataType>int(11)|0s</DataType>
       <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="298" parent="282" name="F_ID_CLIENT_FK">
+    <column id="296" parent="282" name="F_ID_CLIENT_FK">
       <Position>2</Position>
       <DataType>int(11)|0s</DataType>
       <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="299" parent="283" name="F_ID">
+    <column id="297" parent="282" name="F_ISSUE_DATA">
+      <Position>3</Position>
+      <DataType>varchar(45)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="298" parent="283" name="F_ID">
       <Position>1</Position>
       <DataType>int(5)|0s</DataType>
       <NotNull>1</NotNull>
       <SequenceIdentity>1</SequenceIdentity>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="300" parent="283" name="F_TERM">
+    <column id="299" parent="283" name="F_TERM">
       <Position>2</Position>
       <DataType>varchar(40)|0s</DataType>
       <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="301" parent="283" name="F_PERCENT">
+    <column id="300" parent="283" name="F_PERCENT">
       <Position>3</Position>
       <DataType>varchar(5)|0s</DataType>
       <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="302" parent="283" name="F_SUM">
+    <column id="301" parent="283" name="F_SUM">
       <Position>4</Position>
       <DataType>varchar(10)|0s</DataType>
       <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="303" parent="283" name="F_CREDITTYPE_ID_FK">
+    <column id="302" parent="283" name="F_CREDITTYPE_ID_FK">
       <Position>5</Position>
       <DataType>int(5)|0s</DataType>
       <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="304" parent="283" name="F_ASSESSMENT">
+    <column id="303" parent="283" name="F_ASSESSMENT">
       <Position>6</Position>
       <DataType>varchar(5)|0s</DataType>
       <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <index id="305" parent="283" name="F_CREDITTYPE_ID_FK_idx">
+    <index id="304" parent="283" name="F_CREDITTYPE_ID_FK_idx">
       <ColNames>F_CREDITTYPE_ID_FK</ColNames>
       <Type>btree</Type>
     </index>
-    <key id="306" parent="283" name="PRIMARY">
+    <key id="305" parent="283" name="PRIMARY">
       <NameSurrogate>1</NameSurrogate>
       <ColNames>F_ID</ColNames>
       <Primary>1</Primary>
     </key>
-    <column id="307" parent="284" name="F_ID">
+    <column id="306" parent="284" name="F_ID">
       <Position>1</Position>
       <DataType>int(5)|0s</DataType>
       <NotNull>1</NotNull>
       <SequenceIdentity>1</SequenceIdentity>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="308" parent="284" name="F_TYPENAME">
+    <column id="307" parent="284" name="F_TYPENAME">
       <Position>2</Position>
       <DataType>varchar(20)|0s</DataType>
       <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <key id="309" parent="284" name="PRIMARY">
+    <key id="308" parent="284" name="PRIMARY">
       <NameSurrogate>1</NameSurrogate>
       <ColNames>F_ID</ColNames>
       <Primary>1</Primary>
     </key>
-    <column id="310" parent="285" name="F_ID">
+    <column id="309" parent="285" name="F_ID">
       <Position>1</Position>
       <DataType>int(5)|0s</DataType>
       <NotNull>1</NotNull>
       <SequenceIdentity>1</SequenceIdentity>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="311" parent="285" name="F_NAME">
-      <Position>2</Position>
-      <DataType>varchar(20)|0s</DataType>
-      <NotNull>1</NotNull>
-      <ColumnKind>normal</ColumnKind>
-    </column>
-    <column id="312" parent="285" name="F_SURNAME">
-      <Position>3</Position>
-      <DataType>varchar(20)|0s</DataType>
-      <NotNull>1</NotNull>
-      <ColumnKind>normal</ColumnKind>
-    </column>
-    <column id="313" parent="285" name="F_ID_USER_FK">
-      <Position>4</Position>
-      <DataType>int(5)|0s</DataType>
-      <NotNull>1</NotNull>
-      <ColumnKind>normal</ColumnKind>
-    </column>
-    <column id="314" parent="285" name="F_ASSESSMENTS">
-      <Position>5</Position>
-      <DataType>varchar(60)|0s</DataType>
-      <NotNull>1</NotNull>
-      <DefaultExpression>&apos;Нет&apos;</DefaultExpression>
-      <ColumnKind>normal</ColumnKind>
-    </column>
-    <column id="315" parent="285" name="F_SUMMASSESSMENTS">
-      <Position>6</Position>
-      <DataType>varchar(45)|0s</DataType>
-      <NotNull>1</NotNull>
-      <ColumnKind>normal</ColumnKind>
-    </column>
-    <key id="316" parent="285" name="PRIMARY">
-      <NameSurrogate>1</NameSurrogate>
-      <ColNames>F_ID</ColNames>
-      <Primary>1</Primary>
-    </key>
-    <column id="317" parent="286" name="F_ID">
-      <Position>1</Position>
-      <DataType>int(5)|0s</DataType>
-      <NotNull>1</NotNull>
-      <SequenceIdentity>1</SequenceIdentity>
-      <ColumnKind>normal</ColumnKind>
-    </column>
-    <column id="318" parent="286" name="F_USERNAME">
+    <column id="310" parent="285" name="F_USERNAME">
       <Position>2</Position>
       <DataType>varchar(10)|0s</DataType>
       <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="319" parent="286" name="F_PASSWORD">
+    <column id="311" parent="285" name="F_PASSWORD">
       <Position>3</Position>
       <DataType>varchar(10)|0s</DataType>
       <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="320" parent="286" name="F_ROLE">
+    <column id="312" parent="285" name="F_ROLE">
       <Position>4</Position>
       <DataType>varchar(10)|0s</DataType>
       <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <key id="321" parent="286" name="PRIMARY">
-      <NameSurrogate>1</NameSurrogate>
-      <ColNames>F_ID</ColNames>
-      <Primary>1</Primary>
-    </key>
-    <column id="322" parent="287" name="F_ID">
-      <Position>1</Position>
-      <DataType>int(5)|0s</DataType>
-      <NotNull>1</NotNull>
-      <SequenceIdentity>1</SequenceIdentity>
-      <ColumnKind>normal</ColumnKind>
-    </column>
-    <column id="323" parent="287" name="F_NAME">
-      <Position>2</Position>
-      <DataType>varchar(20)|0s</DataType>
-      <NotNull>1</NotNull>
-      <ColumnKind>normal</ColumnKind>
-    </column>
-    <column id="324" parent="287" name="F_SURNAME">
-      <Position>3</Position>
-      <DataType>varchar(20)|0s</DataType>
-      <NotNull>1</NotNull>
-      <ColumnKind>normal</ColumnKind>
-    </column>
-    <column id="325" parent="287" name="F_SALARY">
-      <Position>4</Position>
-      <DataType>int(10)|0s</DataType>
-      <NotNull>1</NotNull>
-      <ColumnKind>normal</ColumnKind>
-    </column>
-    <column id="326" parent="287" name="F_PATRONYMIC">
-      <Position>5</Position>
-      <DataType>varchar(20)|0s</DataType>
-      <NotNull>1</NotNull>
-      <ColumnKind>normal</ColumnKind>
-    </column>
-    <column id="327" parent="287" name="F_ID_USER_FK">
-      <Position>6</Position>
-      <DataType>int(5)|0s</DataType>
-      <NotNull>1</NotNull>
-      <ColumnKind>normal</ColumnKind>
-    </column>
-    <index id="328" parent="287" name="F_ID_USER_FK_idx">
-      <ColNames>F_ID_USER_FK</ColNames>
-      <Type>btree</Type>
-    </index>
-    <key id="329" parent="287" name="PRIMARY">
+    <key id="313" parent="285" name="PRIMARY">
       <NameSurrogate>1</NameSurrogate>
       <ColNames>F_ID</ColNames>
       <Primary>1</Primary>

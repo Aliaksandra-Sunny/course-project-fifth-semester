@@ -29,30 +29,6 @@ public class Model {
         return Service.deleteUsers(user);
     }
 
-    public List<Worker> getAllWorkersForAdmin() {
-        return Service.getWorkersForAdmin();
-    }
-
-    public String deleteWorker(String worker){
-        return  Service.deleteWorkers(worker);
-    }
-
-    public String deleteExpert(String expert){
-        return  Service.deleteExpert(expert);
-    }
-
-    public List<Expert> getAllExpertsForAdmin(){
-        return Service.getExpertsForAdmin();
-    }
-
-    public String regExpert(User user, Expert expert) throws IOException {
-        return Service.createNewExpert(user,expert);
-    }
-
-    public String regWorker(User user, Worker worker) throws IOException {
-        return Service.createNewWorker(user,worker);
-    }
-
     public String regClient(User user, Client client) throws IOException {
         return Service.createNewClient(user,client);
     }
@@ -74,9 +50,6 @@ public class Model {
         return Service.getAllCredits();
     }
 
-    public List<Credit> getAllCreditsForAssessment() {
-        return Service.getAllCreditsForAssessment();
-    }
 
     public String addNewCredit(Credit credit) {
         return Service.addNewCredit(credit);
@@ -84,10 +57,6 @@ public class Model {
 
     public String deleteCredit(Credit credit) {
         return Service.deleteCredit(credit);
-    }
-
-    public String deleteCreditForAssessment(Credit credit) {
-        return Service.deleteCreditForAssessment(credit);
     }
 
     public List<Credit> getCredit(String columnName, String findString) {
@@ -102,39 +71,6 @@ public class Model {
         return Service.editCredit(id, credit);
     }
 
-    public String sendCreditForAssessment(Credit credit ) {
-        return Service.sendCreditForAssessment(credit);
-    }
-
-    public String enterScaleSize(String size){
-        return Service.enterScaleSize(size);
-    }
-
-    public List<Expert>  watchAllSummAssessments(){
-        return Service.watchAllSummAssessments();
-    }
-
-    public String getAssByNameAndSName(String sName,String name){
-        return Service.getAssByNameAndSName(sName,name);
-    }
-    /**
-     * Expert*/
-
-    public List<Expert> getExpert(String columnName, String findString) {
-        return Service.getFindExpert(columnName, findString);
-    }
-
-    public  int getScale(){
-        return Service.getScale();
-    }
-
-    public int getN(){
-        return Service.getN();
-    }
-
-    public String addAssessments(String login,String expertAssessments){
-        return Service.addAssessments(login, expertAssessments);
-    }
 
     public Client findClient(User user) {
         return Service.findClient(user);

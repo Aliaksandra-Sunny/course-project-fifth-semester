@@ -3,9 +3,6 @@ package client.view.userView;
 import client.controller.Controller;
 import client.entity.Client;
 import client.entity.Credit;
-import client.entity.User;
-import client.model.Model;
-import client.view.adminView.FinalGoalWeightsView;
 
 import javax.swing.*;
 import javax.swing.table.DefaultTableModel;
@@ -13,8 +10,6 @@ import javax.swing.table.TableModel;
 import javax.swing.table.TableRowSorter;
 import java.awt.*;
 import java.awt.event.ActionEvent;
-import java.awt.event.KeyAdapter;
-import java.awt.event.KeyEvent;
 import java.io.File;
 import java.io.FileNotFoundException;
 import java.io.IOException;
@@ -124,7 +119,7 @@ public class AllUsersCreditsView extends JFrame {
 
     private void createChart() {
         if (table.getRowCount() == 0) {
-            JOptionPane.showMessageDialog(FinalGoalWeightsView.jframe, "Список ваших кредитов пуст!");
+            JOptionPane.showMessageDialog(AllUsersCreditsView.jframe, "Список ваших кредитов пуст!");
         } else {
             List<String> list = new ArrayList<>();
             String str;
@@ -163,7 +158,7 @@ public class AllUsersCreditsView extends JFrame {
 
     private void writeResultToFile() {
         if (table.getRowCount() == 0) {
-            JOptionPane.showMessageDialog(FinalGoalWeightsView.jframe, "Список ваших кредитов пуст!");
+            JOptionPane.showMessageDialog(AllUsersCreditsView.jframe, "Список ваших кредитов пуст!");
         } else {
             try (PrintWriter printWriter = new PrintWriter("E:\\БГУИР\\3 курс\\5 семестр\\ПСП\\kurs_project\\src\\main\\java\\client\\record.txt")) {
                 printWriter.println("                         Информация по кредитам" + "\n");
@@ -176,7 +171,7 @@ public class AllUsersCreditsView extends JFrame {
                     printWriter.println("Дата выдачи: " + tableModel.getValueAt(i, 5) + "\n");
                     printWriter.println();
                 }
-                JOptionPane.showMessageDialog(FinalGoalWeightsView.jframe, "Данные записаны!");
+                JOptionPane.showMessageDialog(AllUsersCreditsView.jframe, "Данные записаны!");
 
             } catch (FileNotFoundException e) {
                 e.printStackTrace();

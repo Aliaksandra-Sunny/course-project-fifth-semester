@@ -1,16 +1,11 @@
 package client.controller;
 
 
-import client.Main;
 import client.entity.*;
 import client.model.Model;
 import client.view.AuthorizationView;
 import client.view.RegistrationView;
 import client.view.adminView.*;
-import client.view.expertView.AddAssessmentView;
-import client.view.expertView.CreditForAssessmentForExpertView;
-import client.view.expertView.MainExpertView;
-import client.view.expertView.PrintAllAssessmentsForExpert;
 import client.view.userView.*;
 
 
@@ -26,7 +21,6 @@ public class Controller {
         AuthorizationView authorizationView = new AuthorizationView(this);
         authorizationView.setVisible(true);
         new RegistrationView(this);
-        new MainExpertView(this);
         new MainAdminView(this);
     }
 
@@ -39,10 +33,6 @@ public class Controller {
                 if (user.getRole().equals("admin")) {
                     new MainAdminView(this);
                     MainAdminView.jframe.setVisible(true);
-                    AuthorizationView.jframe.setVisible(false);
-                } else if (user.getRole().equals("expert")) {
-                    new MainExpertView(this);
-                    MainExpertView.jframe.setVisible(true);
                     AuthorizationView.jframe.setVisible(false);
                 } else if (user.getRole().equals("user")) {
                     new MainUserView(this, user);
@@ -81,50 +71,6 @@ public class Controller {
 
     }
 
-    public void openAdminWorkerView() {
-        MainAdminView.jframe.setVisible(false);
-        new WorkersView((this));
-        WorkersView.jframe.setVisible(true);
-
-    }
-
-    public void openAdminExpertView() {
-        MainAdminView.jframe.setVisible(false);
-        new ExpertsView(this);
-        ExpertsView.jframe.setVisible(true);
-
-    }
-
-    public void openAddExpertView() {
-        new AddExpertView(this);
-        AddExpertView.jframe.setVisible(true);
-        ExpertsView.jframe.setVisible(false);
-    }
-
-    public String deleteExpert(String expert) {
-        Model obj = new Model();
-        return obj.deleteExpert(expert);
-    }
-
-    public void backToAdminViewFromaddExpertsView() {
-        AddExpertView.jframe.setVisible(false);
-        new MainAdminView(this);
-        MainAdminView.jframe.setVisible(true);
-
-    }
-
-    public void openAddWorkerView() {
-        new AddWorkerView(this);
-        AddWorkerView.jframe.setVisible(true);
-        WorkersView.jframe.setVisible(false);
-    }
-
-    public void backToAdminViewFromaddWorkersView() {
-        AddWorkerView.jframe.setVisible(false);
-        new MainAdminView(this);
-        MainAdminView.jframe.setVisible(true);
-    }
-
 
     public void backToAuthorizationViewFromMainAdminView() {
         RegistrationView.jframe.setVisible(false);
@@ -151,51 +97,6 @@ public class Controller {
     }
 
 
-    public List<Worker> watchAllWorkersForAdmin() {
-        Model obj = new Model();
-        return obj.getAllWorkersForAdmin();
-    }
-
-    public String deleteWorker(String worker) {
-        Model obj = new Model();
-        return obj.deleteWorker(worker);
-    }
-
-    public void backToAdminViewFromWorkersView() {
-        WorkersView.jframe.setVisible(false);
-        new MainAdminView(this);
-        MainAdminView.jframe.setVisible(true);
-    }
-
-    public List<Expert> watchAllExpertsForAdmin() {
-        Model obj = new Model();
-        return obj.getAllExpertsForAdmin();
-    }
-
-    public void backToAdminViewFromExpertsView() {
-        ExpertsView.jframe.setVisible(false);
-        new MainAdminView(this);
-        MainAdminView.jframe.setVisible(true);
-    }
-
-
-    public void regExpert(User user, Expert expert) {
-        try {
-            Model obj = new Model();
-            JOptionPane.showMessageDialog(AddExpertView.jframe, obj.regExpert(user, expert));
-        } catch (Exception er) {
-            System.out.println(er.getMessage());
-        }
-    }
-
-    public void regWorker(User user, Worker worker) {
-        try {
-            Model obj = new Model();
-            JOptionPane.showMessageDialog(AddWorkerView.jframe, obj.regWorker(user, worker));
-        } catch (Exception er) {
-            System.out.println(er.getMessage());
-        }
-    }
 
     public void regClient(User user, Client client) {
         try {
@@ -265,10 +166,6 @@ public class Controller {
         JOptionPane.showMessageDialog(CreditsView.jframe, obj.deleteCredit(credit));
     }
 
-    public void deleteCreditForAssessment(Credit credit) {
-        Model obj = new Model();
-        JOptionPane.showMessageDialog(CreditsForAssessmentView.jframe, obj.deleteCreditForAssessment(credit));
-    }
 
     public void backToCreditsAdminViewFromAddCreditView() {
         AddCreditView.jframe.setVisible(false);
@@ -318,224 +215,6 @@ public class Controller {
         new CreditsView(this);
         CreditsView.jframe.setVisible(true);
     }
-
-    public void backToWorkersAdminViewFromaddWorkerView() {
-        AddWorkerView.jframe.setVisible(false);
-        new WorkersView(this);
-        WorkersView.jframe.setVisible(true);
-    }
-
-    public void backToExpertsViewFromAddExpert() {
-        AddExpertView.jframe.setVisible(false);
-        new ExpertsView(this);
-        ExpertsView.jframe.setVisible(true);
-    }
-
-
-    public void sendCreditForAssessment(Credit credit) {
-        Model obj = new Model();
-        JOptionPane.showMessageDialog(SendCreditForAssessmentView.jframe, obj.sendCreditForAssessment(credit));
-    }
-
-    public void openSendCreditForAssessmentView() {
-        CreditsForAssessmentView.jframe.setVisible(false);
-        new SendCreditForAssessmentView(this);
-        SendCreditForAssessmentView.jframe.setVisible(true);
-    }
-
-    public void watchAllCreditsForAssessmentView() {
-        MainAdminView.jframe.setVisible(false);
-        new CreditsForAssessmentView(this);
-        CreditsForAssessmentView.jframe.setVisible(true);
-    }
-
-    public void backToMainAdminViewFromCreditsForAssessmentView() {
-        CreditsForAssessmentView.jframe.setVisible(false);
-        new MainAdminView(this);
-        MainAdminView.jframe.setVisible(true);
-    }
-
-    public List<Credit> watchAllCreditsForAssessment() {
-        Model obj = new Model();
-        return obj.getAllCreditsForAssessment();
-    }
-
-    public void backToCreditsForAssessmentViewFromSendCreditsView() {
-        SendCreditForAssessmentView.jframe.setVisible(false);
-        new CreditsForAssessmentView(this);
-        CreditsForAssessmentView.jframe.setVisible(true);
-    }
-
-    public void openPrintAllAssessmentsForAdminView() {
-        MainAdminView.jframe.setVisible(false);
-        new PrintAllAssessmentsForAdminView(this);
-        PrintAllAssessmentsForAdminView.jframe.setVisible(true);
-    }
-
-    public void backToMainAdminViewFromAssessmentsView() {
-        new MainAdminView(this);
-        MainAdminView.jframe.setVisible(true);
-        PrintAllAssessmentsForAdminView.jframe.setVisible(false);
-    }
-
-    public void openEnterScaleSizeView() {
-        new EnterScaleSizeView(this);
-        EnterScaleSizeView.jframe.setVisible(true);
-        MainAdminView.jframe.setVisible(false);
-    }
-
-    public void enterScaleSize(String size) {
-        Model obj = new Model();
-        JOptionPane.showMessageDialog(EnterScaleSizeView.jframe, obj.enterScaleSize(size));
-
-    }
-
-    public void closedEnterScaleSizeView() {
-        EnterScaleSizeView.jframe.setVisible(false);
-        new MainAdminView(this);
-        MainAdminView.jframe.setVisible(true);
-    }
-
-    public List<Expert> watchAllSummAssessments() {
-        Model obj = new Model();
-        return obj.watchAllSummAssessments();
-    }
-
-    public void openFinalGoalWeightsView() {
-        MainAdminView.jframe.setVisible(false);
-        new FinalGoalWeightsView(this);
-        FinalGoalWeightsView.jframe.setVisible(true);
-    }
-
-
-    public String getAssByNameAndSName(String sName, String name) {
-        Model obj = new Model();
-        return obj.getAssByNameAndSName(sName, name);
-    }
-
-    public void backToMainAdminViewFromFinalGoalView() {
-        new MainAdminView(this);
-        MainAdminView.jframe.setVisible(true);
-        FinalGoalWeightsView.jframe.setVisible(false);
-    }
-
-    public void openCreateChartView(List<String> list) {
-        ChartView view = new ChartView(this);
-        String arr[];
-        System.out.println(list);
-        for (String list1 : list) {
-            arr = list1.split(";");
-            view.dcd.setValue(Double.parseDouble(arr[1]), "Вес кредита", arr[0]);
-        }
-        ChartView.jframe.setVisible(true);
-    }
-
-    /**
-     * Expert
-     */
-
-    public void backToAuthorizationViewFromMainExpertView() {
-        new AuthorizationView(this);
-        AuthorizationView.jframe.setVisible(true);
-        MainExpertView.jframe.setVisible(false);
-    }
-
-    public void watchAllCreditsForAssessmentForExpertView() {
-        MainExpertView.jframe.setVisible(false);
-        new CreditForAssessmentForExpertView(this);
-        CreditForAssessmentForExpertView.jframe.setVisible(true);
-    }
-
-    public void backToMainExpertViewFromCreditsForAssessmentForExpertView() {
-        new MainExpertView(this);
-        MainExpertView.jframe.setVisible(true);
-        CreditForAssessmentForExpertView.jframe.setVisible(false);
-    }
-
-    public void backToMainExpertViewFromAssessmentsView() {
-        PrintAllAssessmentsForExpert.jframe.setVisible(false);
-        new MainExpertView(this);
-        MainExpertView.jframe.setVisible(true);
-    }
-
-    public List<Expert> watchExpert(String columnName, String findString) {
-        Model obj = new Model();
-        return obj.getExpert(columnName, findString);
-    }
-
-    public void openPrintAllAssessmentsForExpertView() {
-        new PrintAllAssessmentsForExpert(this);
-        PrintAllAssessmentsForExpert.jframe.setVisible(true);
-        MainExpertView.jframe.setVisible(false);
-    }
-
-    public void openAddAssessmentView() {
-        new AddAssessmentView(this);
-        AddAssessmentView.jframe.setVisible(true);
-
-    }
-
-    public int getScale() {
-        Model obj = new Model();
-        if (obj.getScale() == 0) {
-            JOptionPane.showMessageDialog(MainAdminView.jframe, "Кол-во кредититов для оценки равно 0 !\nДобавьте кредит для оценки!");
-            FinalGoalWeightsView.jframe.setVisible(false);
-            new MainAdminView(this);
-            MainAdminView.jframe.setVisible(true);
-            return -1;
-        } else return obj.getScale();
-    }
-
-    public int getN() {
-        Model obj = new Model();
-        return obj.getN();
-    }
-
-    public int[] getAssessments() {
-        int[] assessments = new int[getScale()];
-        for (int i = 0; i < assessments.length; i++) {
-            assessments[i] = i + 1;
-        }
-        return assessments;
-    }
-
-    public void addAssessments(String login, String expertAssessments) {
-        Model obj = new Model();
-        JOptionPane.showMessageDialog(AddAssessmentView.jframe, obj.addAssessments(login, expertAssessments));
-
-    }
-
-    public void openAssessmentsOfOneExpertView(String assessments) {
-        int scale = getScale();
-        String[] ass = assessments.split(" ");
-
-        AssessmentsOfOneExpertView view = new AssessmentsOfOneExpertView(this);
-        AssessmentsOfOneExpertView.jframe.setVisible(true);
-
-        /**Исправить ass[все параметры ]*/
-        view.z1z1.setText(ass[3]);
-        view.z1z2.setText(ass[4]);
-        view.z1z3.setText(ass[5]);
-        view.z1z4.setText(ass[6]);
-
-        view.z2z1.setText(ass[7]);
-        view.z2z2.setText(ass[11]);
-        view.z2z3.setText(ass[12]);
-        view.z2z4.setText(ass[13]);
-
-        view.z3z1.setText(ass[14]);
-        view.z3z2.setText(ass[15]);
-        view.z3z3.setText(ass[19]);
-        view.z3z4.setText(ass[20]);
-
-        view.z4z1.setText(ass[21]);
-        view.z4z2.setText(ass[22]);
-        view.z4z3.setText(ass[23]);
-        view.z4z4.setText(ass[27]);
-
-
-    }
-
 
     public void backToAuthorizationViewFromMainUserView() {
         new AuthorizationView(this);

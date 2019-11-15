@@ -2,128 +2,26 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ddcd039a-d959-4484-ba18-d936e6849d3c" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/client/view/adminView/UserCredit.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/ceb13a94-22b9-4e5a-a553-61a0b8d830d2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/ceb13a94-22b9-4e5a-a553-61a0b8d830d2.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/client/controller/Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/client/controller/Controller.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/client/entity/Expert.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/client/entity/Worker.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/client/images/expert.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/client/model/Model.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/client/model/Model.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/client/service/Service.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/client/service/Service.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/client/unit/ValueComparator.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/client/view/adminView/AddExpertView.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/client/view/adminView/AddWorkerView.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/client/view/adminView/AssessmentsOfOneExpertView.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/client/view/adminView/CreditsForAssessmentView.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/client/record.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/client/record.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/client/view/adminView/CreditsForUserView.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/client/view/adminView/CreditsForUserView.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/client/view/adminView/EnterScaleSizeView.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/client/view/adminView/ExpertsView.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/client/view/adminView/FinalGoalWeightsView.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/client/view/adminView/MainAdminView.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/client/view/adminView/MainAdminView.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/client/view/adminView/PrintAllAssessmentsForAdminView.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/client/view/adminView/SendCreditForAssessmentView.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/client/view/adminView/WorkersView.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/client/view/expertView/AddAssessmentView.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/client/view/expertView/CreditForAssessmentForExpertView.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/client/view/expertView/MainExpertView.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/client/view/expertView/PrintAllAssessmentsForExpert.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/client/view/adminView/CreditsView.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/client/view/adminView/CreditsView.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/client/view/userView/AllUsersCreditsView.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/client/view/userView/AllUsersCreditsView.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/server/ExpertDAO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/client/view/workerView/MainWorkerView.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/server/CreditDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/server/CreditDAO.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/server/MainServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/server/MainServer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/server/WorkerDAO.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/server/entity/Expert.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/client/controller/Controller.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/client/controller/Controller.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/client/entity/Expert$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/client/entity/Expert$Builder.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/client/entity/Expert.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/client/entity/Worker$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/client/entity/Worker$Builder.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/client/entity/Worker.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/client/model/Model.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/client/model/Model.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/client/service/Service.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/client/service/Service.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/client/unit/ValueComparator.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/client/view/adminView/AddExpertView$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/client/view/adminView/AddExpertView$2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/client/view/adminView/AddExpertView.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/client/view/adminView/AddWorkerView$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/client/view/adminView/AddWorkerView$2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/client/view/adminView/AddWorkerView.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/client/view/adminView/AssessmentsOfOneExpertView.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/client/view/adminView/CreditsForAssessmentView$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/client/view/adminView/CreditsForAssessmentView$2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/client/view/adminView/CreditsForAssessmentView$3.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/client/view/adminView/CreditsForAssessmentView$4.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/client/view/adminView/CreditsForAssessmentView.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/client/view/adminView/EnterScaleSizeView$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/client/view/adminView/EnterScaleSizeView.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/client/view/adminView/ExpertsView$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/client/view/adminView/ExpertsView$2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/client/view/adminView/ExpertsView$3.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/client/view/adminView/ExpertsView$4.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/client/view/adminView/ExpertsView.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/client/view/adminView/FinalGoalWeightsView$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/client/view/adminView/FinalGoalWeightsView$2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/client/view/adminView/FinalGoalWeightsView$3.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/client/view/adminView/FinalGoalWeightsView$4.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/client/view/adminView/FinalGoalWeightsView$5.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/client/view/adminView/FinalGoalWeightsView$6.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/client/view/adminView/FinalGoalWeightsView$7.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/client/view/adminView/FinalGoalWeightsView.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/client/view/adminView/MainAdminView$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/client/view/adminView/MainAdminView$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/client/view/adminView/MainAdminView$10.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/client/view/adminView/MainAdminView$11.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/client/view/adminView/MainAdminView$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/client/view/adminView/MainAdminView$2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/client/view/adminView/MainAdminView$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/client/view/adminView/MainAdminView$3.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/client/view/adminView/MainAdminView$4.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/client/view/adminView/MainAdminView$4.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/client/view/adminView/MainAdminView$5.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/client/view/adminView/MainAdminView$5.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/client/view/adminView/MainAdminView$6.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/client/view/adminView/MainAdminView$7.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/client/view/adminView/MainAdminView$8.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/client/view/adminView/MainAdminView$9.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/client/view/adminView/MainAdminView.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/client/view/adminView/MainAdminView.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/client/view/adminView/PrintAllAssessmentsForAdminView$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/client/view/adminView/PrintAllAssessmentsForAdminView$2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/client/view/adminView/PrintAllAssessmentsForAdminView$3.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/client/view/adminView/PrintAllAssessmentsForAdminView$4.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/client/view/adminView/PrintAllAssessmentsForAdminView.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/client/view/adminView/SendCreditForAssessmentView$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/client/view/adminView/SendCreditForAssessmentView$2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/client/view/adminView/SendCreditForAssessmentView$3.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/client/view/adminView/SendCreditForAssessmentView$4.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/client/view/adminView/SendCreditForAssessmentView.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/client/view/adminView/WorkersView$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/client/view/adminView/WorkersView$2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/client/view/adminView/WorkersView$3.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/client/view/adminView/WorkersView$4.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/client/view/adminView/WorkersView.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/client/view/expertView/AddAssessmentView$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/client/view/expertView/AddAssessmentView$2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/client/view/expertView/AddAssessmentView.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/client/view/expertView/CreditForAssessmentForExpertView$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/client/view/expertView/CreditForAssessmentForExpertView$2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/client/view/expertView/CreditForAssessmentForExpertView$3.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/client/view/expertView/CreditForAssessmentForExpertView.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/client/view/expertView/MainExpertView$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/client/view/expertView/MainExpertView$2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/client/view/expertView/MainExpertView$3.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/client/view/expertView/MainExpertView.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/client/view/expertView/PrintAllAssessmentsForExpert$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/client/view/expertView/PrintAllAssessmentsForExpert$2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/client/view/expertView/PrintAllAssessmentsForExpert$3.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/client/view/expertView/PrintAllAssessmentsForExpert.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/client/view/adminView/CreditsView$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/client/view/adminView/CreditsView$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/client/view/adminView/CreditsView$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/client/view/adminView/CreditsView$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/client/view/adminView/CreditsView$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/client/view/adminView/CreditsView$3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/client/view/adminView/CreditsView$4.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/client/view/adminView/CreditsView$4.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/client/view/adminView/CreditsView$5.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/client/view/adminView/CreditsView$5.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/client/view/adminView/CreditsView$6.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/client/view/adminView/CreditsView$6.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/client/view/adminView/CreditsView.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/client/view/adminView/CreditsView.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/client/view/userView/AllUsersCreditsView$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/client/view/userView/AllUsersCreditsView$1.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/client/view/userView/AllUsersCreditsView$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/client/view/userView/AllUsersCreditsView$2.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/client/view/userView/AllUsersCreditsView$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/client/view/userView/AllUsersCreditsView$3.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/client/view/userView/AllUsersCreditsView$4.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/client/view/userView/AllUsersCreditsView$4.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/client/view/userView/AllUsersCreditsView.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/client/view/userView/AllUsersCreditsView.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/server/ExpertDAO.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/server/MainServer.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/server/MainServer.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/server/WorkerDAO.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/server/entity/Expert$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/server/entity/Expert$Builder.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/server/entity/Expert.class" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -170,12 +68,12 @@
     <select />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="Service.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/client/service/Service.java">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="MainServer.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/server/MainServer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="20">
-              <caret line="104" column="25" selection-start-line="104" selection-start-column="25" selection-end-line="104" selection-end-column="25" />
+            <state relative-caret-position="-1529">
+              <caret line="140" column="21" selection-start-line="140" selection-start-column="21" selection-end-line="140" selection-end-column="21" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -183,11 +81,61 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MainServer.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/server/MainServer.java">
+      <file leaf-file-name="UserDAO.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/server/UserDAO.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="92" column="47" selection-start-line="92" selection-start-column="47" selection-end-line="92" selection-end-column="47" />
+            <state relative-caret-position="3000">
+              <caret line="152" column="22" selection-start-line="152" selection-start-column="22" selection-end-line="152" selection-end-column="22" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AdminDAO.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/server/AdminDAO.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-2329">
+              <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DATABASE/ceb13a94-22b9-4e5a-a553-61a0b8d830d2.TABLE:bank.t_user" pinned="false" current-in-tab="true">
+        <entry file="uml://DATABASE/ceb13a94-22b9-4e5a-a553-61a0b8d830d2.TABLE:bank.t_user">
+          <provider selected="true" editor-type-id="UmlEditorProvider">
+            <state>
+              <ID>DATABASE</ID>
+              <OriginalElement>ceb13a94-22b9-4e5a-a553-61a0b8d830d2.TABLE:bank.t_user</OriginalElement>
+              <nodes>
+                <node x="-227.04038004750592" y="42.66508313539197">ceb13a94-22b9-4e5a-a553-61a0b8d830d2.TABLE:bank.t_credittype</node>
+                <node x="464.2232779097387" y="0.0">ceb13a94-22b9-4e5a-a553-61a0b8d830d2.TABLE:bank.t_client</node>
+                <node x="740.8812351543942" y="399.75771971496437">ceb13a94-22b9-4e5a-a553-61a0b8d830d2.TABLE:bank.t_admin</node>
+                <node x="232.59144893111636" y="38.37292161520189">ceb13a94-22b9-4e5a-a553-61a0b8d830d2.TABLE:bank.t_client_credit</node>
+                <node x="0.0" y="207.0">ceb13a94-22b9-4e5a-a553-61a0b8d830d2.TABLE:bank.t_user</node>
+                <node x="0.0" y="0.0">ceb13a94-22b9-4e5a-a553-61a0b8d830d2.TABLE:bank.t_credit</node>
+              </nodes>
+              <notes />
+              <edges />
+              <settings layout="Hierarchic Group" zoom="0.9073275862068966" x="216.5" y="212.0" />
+              <SelectedNodes />
+              <Categories>
+                <Category>Key columns</Category>
+                <Category>Columns</Category>
+              </Categories>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ClientDAO.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/server/ClientDAO.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2971">
+              <caret line="174" lean-forward="true" selection-start-line="174" selection-end-line="174" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -198,8 +146,8 @@
       <file leaf-file-name="CreditDAO.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/server/CreditDAO.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="108">
-              <caret line="99" column="70" lean-forward="true" selection-start-line="99" selection-start-column="70" selection-end-line="99" selection-end-column="70" />
+            <state relative-caret-position="3440">
+              <caret line="177" column="5" selection-start-line="177" selection-start-column="5" selection-end-line="177" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -207,47 +155,56 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="t_admin" pinned="false" current-in-tab="false">
-        <entry file="das://ceb13a94-22b9-4e5a-a553-61a0b8d830d2/schema/bank/table/t_admin">
-          <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-            <state>
-              <filtering enabled="true" />
+      <file leaf-file-name="UserCredit.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/client/view/adminView/UserCredit.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-500">
+              <caret line="17" column="34" selection-start-line="17" selection-start-column="34" selection-end-line="17" selection-end-column="34" />
+              <folding>
+                <element signature="e#431#432#0" expanded="true" />
+                <element signature="e#480#481#0" expanded="true" />
+                <element signature="e#520#521#0" expanded="true" />
+                <element signature="e#556#557#0" expanded="true" />
+                <element signature="e#587#588#0" expanded="true" />
+                <element signature="e#636#637#0" expanded="true" />
+                <element signature="e#676#677#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="t_client" pinned="false" current-in-tab="false">
-        <entry file="das://ceb13a94-22b9-4e5a-a553-61a0b8d830d2/schema/bank/table/t_client">
-          <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-            <state>
-              <filtering enabled="true" />
+      <file leaf-file-name="AllCreditsView.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/client/view/userView/AllCreditsView.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="265">
+              <caret line="186" column="46" selection-start-line="186" selection-start-column="46" selection-end-line="186" selection-end-column="46" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="t_client_credit" pinned="false" current-in-tab="false">
-        <entry file="das://ceb13a94-22b9-4e5a-a553-61a0b8d830d2/schema/bank/table/t_client_credit">
-          <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-            <state>
-              <filtering enabled="true" />
+      <file leaf-file-name="AllUsersCreditsView.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/client/view/userView/AllUsersCreditsView.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-840">
+              <caret line="27" selection-start-line="27" selection-end-line="27" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="t_credit" pinned="false" current-in-tab="false">
-        <entry file="das://ceb13a94-22b9-4e5a-a553-61a0b8d830d2/schema/bank/table/t_credit">
-          <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-            <state>
-              <filtering enabled="true" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="t_credittype" pinned="false" current-in-tab="true">
-        <entry file="das://ceb13a94-22b9-4e5a-a553-61a0b8d830d2/schema/bank/table/t_credittype">
-          <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-            <state>
-              <filtering enabled="true" />
+      <file leaf-file-name="CreditsForUserView.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/client/view/adminView/CreditsForUserView.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="280">
+              <caret line="155" column="5" selection-start-line="155" selection-start-column="5" selection-end-line="155" selection-end-column="5" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -279,7 +236,6 @@
         <option value="$PROJECT_DIR$/src/main/java/client/view/adminView/ChartView.java" />
         <option value="$PROJECT_DIR$/src/main/java/client/view/adminView/CreditsForAssessmentView.java" />
         <option value="$PROJECT_DIR$/src/main/java/client/view/adminView/CreditsTypeView.java" />
-        <option value="$PROJECT_DIR$/src/main/java/client/view/adminView/CreditsView.java" />
         <option value="$PROJECT_DIR$/src/main/java/client/view/adminView/EditCreditView.java" />
         <option value="$PROJECT_DIR$/src/main/java/client/view/adminView/EnterScaleSizeView.java" />
         <option value="$PROJECT_DIR$/src/main/java/client/view/adminView/PrintAllAssessmentsForAdminView.java" />
@@ -309,17 +265,18 @@
         <option value="$PROJECT_DIR$/src/main/java/client/view/userView/ChartViewUser.java" />
         <option value="$PROJECT_DIR$/src/main/java/client/view/userView/ChartViewCredit.java" />
         <option value="$PROJECT_DIR$/src/main/java/server/AbstractDAO.java" />
-        <option value="$PROJECT_DIR$/src/main/java/server/CreditDAO.java" />
         <option value="$PROJECT_DIR$/src/main/java/server/ClientDAO.java" />
-        <option value="$PROJECT_DIR$/src/main/java/client/view/userView/AllUsersCreditsView.java" />
         <option value="$PROJECT_DIR$/src/main/java/server/WorkerDAO.java" />
         <option value="$PROJECT_DIR$/src/main/java/client/model/Model.java" />
         <option value="$PROJECT_DIR$/src/main/java/client/service/Service.java" />
         <option value="$PROJECT_DIR$/src/main/java/client/controller/Controller.java" />
-        <option value="$PROJECT_DIR$/src/main/java/server/MainServer.java" />
         <option value="$PROJECT_DIR$/src/main/java/client/view/adminView/MainAdminView.java" />
         <option value="$PROJECT_DIR$/src/main/java/client/view/adminView/UserCredit.java" />
+        <option value="$PROJECT_DIR$/src/main/java/client/view/adminView/CreditsView.java" />
+        <option value="$PROJECT_DIR$/src/main/java/client/view/userView/AllUsersCreditsView.java" />
         <option value="$PROJECT_DIR$/src/main/java/client/view/adminView/CreditsForUserView.java" />
+        <option value="$PROJECT_DIR$/src/main/java/server/CreditDAO.java" />
+        <option value="$PROJECT_DIR$/src/main/java/server/MainServer.java" />
       </list>
     </option>
   </component>
@@ -343,10 +300,10 @@
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
-    <option name="x" value="915" />
-    <option name="width" value="945" />
-    <option name="height" value="1090" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="731" />
+    <option name="width" value="757" />
+    <option name="height" value="873" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -479,6 +436,7 @@
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -564,8 +522,8 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="Application.Main" />
       <item itemvalue="Application.Main (1)" />
+      <item itemvalue="Application.Main" />
     </list>
     <recent_temporary>
       <list>
@@ -583,65 +541,68 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1573637461894</updated>
-      <workItem from="1573637463747" duration="54872000" />
+      <workItem from="1573637463747" duration="56063000" />
+      <workItem from="1573854309782" duration="4515000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="54872000" />
+    <option name="totallyTimeSpent" value="60578000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="878" extended-state="7" />
+    <frame x="-7" y="-7" width="1550" height="878" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info anchor="right" id="Palette" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
-      <window_info anchor="right" id="Maven Projects" weight="0.3295302" />
-      <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
-      <window_info id="Capture Tool" />
-      <window_info id="Designer" />
-      <window_info anchor="right" id="Database" sideWeight="0.49598393" weight="0.14966443" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Messages" order="7" weight="0.32884097" />
+      <window_info anchor="right" id="Palette&#9;" order="3" />
+      <window_info id="Image Layers" order="2" />
+      <window_info anchor="right" id="Capture Analysis" order="3" />
+      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
+      <window_info anchor="right" id="Maven Projects" order="3" weight="0.32942432" />
+      <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.3625337" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.09290188" />
+      <window_info id="Capture Tool" order="2" />
+      <window_info id="Designer" order="2" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2033557" />
+      <window_info active="true" anchor="right" id="Database" order="3" sideWeight="0.49598393" visible="true" weight="0.14899328" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32884097" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info id="UI Designer" />
+      <window_info id="UI Designer" order="2" />
+      <window_info anchor="right" id="Theme Preview" order="3" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.50673854" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Messages" weight="0.32884097" />
-      <window_info anchor="right" id="Palette&#9;" />
-      <window_info id="Image Layers" />
-      <window_info anchor="right" id="Capture Analysis" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.3625337" />
-      <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="right" id="Coverage" sideWeight="0.50401604" side_tool="true" weight="0.14966443" />
-      <window_info anchor="bottom" id="Terminal" weight="0.11859838" />
-      <window_info anchor="bottom" id="Database Console" weight="0.32884097" />
-      <window_info content_ui="combo" id="Project" order="0" weight="0.32348993" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32884097" />
-      <window_info anchor="right" id="Theme Preview" />
-      <window_info id="Favorites" side_tool="true" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="bottom" id="Database Console" order="7" weight="0.32884097" />
+      <window_info anchor="bottom" id="SQL Generator" order="7" visible="true" weight="0.32985386" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="right" id="Coverage" order="3" sideWeight="0.50401604" side_tool="true" weight="0.14966443" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
     </layout>
     <layout-to-restore>
-      <window_info id="Designer" order="0" />
-      <window_info anchor="bottom" id="Database Console" order="0" weight="0.32884097" />
-      <window_info anchor="right" id="Palette" order="0" />
-      <window_info anchor="bottom" id="Run" order="8" visible="true" weight="0.3625337" />
-      <window_info id="Image Layers" order="1" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="7" type="SLIDING" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="10" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="8" weight="0.25" />
+      <window_info id="Designer" order="0" />
+      <window_info anchor="right" id="Palette" order="0" />
+      <window_info anchor="bottom" id="Database Console" order="0" weight="0.32884097" />
+      <window_info anchor="bottom" id="Run" order="8" visible="true" weight="0.3625337" />
+      <window_info anchor="bottom" id="Cvs" order="10" weight="0.25" />
+      <window_info anchor="right" id="Coverage" order="6" sideWeight="0.50401604" side_tool="true" weight="0.14966443" />
       <window_info id="UI Designer" order="2" />
       <window_info id="Favorites" order="3" side_tool="true" />
       <window_info anchor="bottom" id="Terminal" order="1" weight="0.11859838" />
       <window_info id="Capture Tool" order="4" />
       <window_info anchor="right" id="Capture Analysis" order="1" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="7" type="SLIDING" weight="0.4" />
       <window_info anchor="bottom" id="Event Log" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="3" weight="0.32884097" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="9" weight="0.25" />
+      <window_info id="Image Layers" order="1" />
       <window_info anchor="bottom" id="Database Changes" order="4" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="5" />
       <window_info anchor="right" id="Maven Projects" order="2" weight="0.3295302" />
@@ -654,7 +615,6 @@
       <window_info anchor="right" id="Theme Preview" order="5" />
       <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="11" weight="0.4" />
-      <window_info anchor="right" id="Coverage" order="6" sideWeight="0.50401604" side_tool="true" weight="0.14966443" />
       <window_info anchor="bottom" id="Debug" order="9" weight="0.50673854" />
     </layout-to-restore>
   </component>
@@ -666,42 +626,11 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-method">
-          <url>file://$PROJECT_DIR$/src/main/java/client/view/adminView/CreditsForUserView.java</url>
-          <line>141</line>
-          <properties class="client.view.adminView.CreditsForUserView" method="watchAllCredits">
-            <option name="EMULATED" value="true" />
-          </properties>
-          <option name="timeStamp" value="8" />
-        </line-breakpoint>
-      </breakpoints>
       <option name="time" value="10" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/client/view/workerView/ChartViewUser.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="40">
-          <caret line="2" column="26" selection-start-line="2" selection-start-column="26" selection-end-line="2" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/client/view/userView/ChartViewUser.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/client/view/adminView/FinalGoalWeightsView.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="423" column="30" selection-start-line="423" selection-start-column="30" selection-end-line="423" selection-end-column="30" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#5107#5119#0" expanded="true" />
-            <element signature="e#6374#6386#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/client/view/adminView/FinalGoalWeightsView.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/client/entity/Admin.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-630">
@@ -730,61 +659,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/client/entity/Worker.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-100">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/client/unit/ValueComparator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/client/view/adminView/AddCreditView.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1650">
-          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/client/entity/Worker.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/client/unit/ValueComparator.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/client/view/adminView/ChartView.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-320">
           <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/client/view/adminView/EditCreditView.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1720">
-          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/client/view/userView/AllUsersCreditsView.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="173" column="65" selection-start-line="173" selection-start-column="65" selection-end-line="173" selection-end-column="65" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/client/view/userView/AllCreditsView.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="299">
-          <caret line="186" column="46" selection-start-line="186" selection-start-column="46" selection-end-line="186" selection-end-column="46" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -802,24 +682,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="110">
           <caret line="89" column="27" selection-start-line="89" selection-start-column="27" selection-end-line="89" selection-end-column="27" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#2420#2421#0" expanded="true" />
-            <element signature="e#2465#2466#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/server/ExpertDAO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="460">
-          <caret line="109" lean-forward="true" selection-start-line="91" selection-start-column="8" selection-end-line="109" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/server/ExpertDAO.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/server/entity/Admin.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="80">
@@ -855,54 +721,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/server/UserDAO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="454">
-          <caret line="152" column="22" selection-start-line="152" selection-start-column="22" selection-end-line="152" selection-end-column="22" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/server/WorkerDAO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/client/view/adminView/AddWorkerView.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="20">
-          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/client/view/adminView/WorkersView.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="80">
-          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/client/view/adminView/UsersView.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="49" column="7" selection-start-line="49" selection-start-column="7" selection-end-line="50" selection-end-column="39" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/server/WorkerDAO.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/client/view/adminView/AddWorkerView.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/client/view/adminView/WorkersView.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/client/view/RegistrationView.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1128">
           <caret line="166" selection-start-line="166" selection-end-line="166" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -910,9 +735,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="160">
           <caret line="84" column="28" selection-start-line="84" selection-start-column="28" selection-end-line="84" selection-end-column="28" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -926,134 +748,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/server/AdminDAO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="20">
-          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/client/view/adminView/UserCredit.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="17" column="34" selection-start-line="17" selection-start-column="34" selection-end-line="17" selection-end-column="34" />
-          <folding>
-            <element signature="e#431#432#0" expanded="true" />
-            <element signature="e#480#481#0" expanded="true" />
-            <element signature="e#520#521#0" expanded="true" />
-            <element signature="e#556#557#0" expanded="true" />
-            <element signature="e#587#588#0" expanded="true" />
-            <element signature="e#636#637#0" expanded="true" />
-            <element signature="e#676#677#0" expanded="true" />
-            <element signature="e#756#757#0" expanded="true" />
-            <element signature="e#788#789#0" expanded="true" />
-            <element signature="e#838#839#0" expanded="true" />
-            <element signature="e#880#881#0" expanded="true" />
-            <element signature="e#914#915#0" expanded="true" />
-            <element signature="e#944#945#0" expanded="true" />
-            <element signature="e#990#991#0" expanded="true" />
-            <element signature="e#1028#1029#0" expanded="true" />
-            <element signature="e#1063#1064#0" expanded="true" />
-            <element signature="e#1094#1095#0" expanded="true" />
-            <element signature="e#1142#1143#0" expanded="true" />
-            <element signature="e#1182#1183#0" expanded="true" />
-            <element signature="e#1219#1220#0" expanded="true" />
-            <element signature="e#1252#1253#0" expanded="true" />
-            <element signature="e#1304#1305#0" expanded="true" />
-            <element signature="e#1348#1349#0" expanded="true" />
-            <element signature="e#1378#1379#0" expanded="true" />
-            <element signature="e#1404#1405#0" expanded="true" />
-            <element signature="e#1442#1443#0" expanded="true" />
-            <element signature="e#1472#1473#0" expanded="true" />
-            <element signature="e#1506#1507#0" expanded="true" />
-            <element signature="e#1536#1537#0" expanded="true" />
-            <element signature="e#1582#1583#0" expanded="true" />
-            <element signature="e#1620#1621#0" expanded="true" />
-            <element signature="e#1651#1652#0" expanded="true" />
-            <element signature="e#1678#1679#0" expanded="true" />
-            <element signature="e#1718#1719#0" expanded="true" />
-            <element signature="e#1750#1751#0" expanded="true" />
-            <element signature="e#1781#1782#0" expanded="true" />
-            <element signature="e#1808#1809#0" expanded="true" />
-            <element signature="e#1848#1849#0" expanded="true" />
-            <element signature="e#1880#1881#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/client/view/adminView/CreditsView.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="434">
-          <caret line="176" column="5" lean-forward="true" selection-start-line="176" selection-start-column="5" selection-end-line="176" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#2339#2351#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/client/view/userView/ChartViewCredit.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="274">
-          <caret line="35" column="131" selection-start-line="35" selection-start-column="131" selection-end-line="35" selection-end-column="131" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/server/ClientDAO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="236">
-          <caret line="189" column="20" selection-start-line="189" selection-start-column="20" selection-end-line="189" selection-end-column="20" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/server/Main.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="305">
           <caret line="23" column="9" lean-forward="true" selection-start-line="23" selection-start-column="9" selection-end-line="23" selection-end-column="9" />
           <folding>
             <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/client/view/adminView/MainAdminView.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="40">
-          <caret line="73" selection-start-line="73" selection-end-line="73" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#2002#2168#0" expanded="true" />
-            <element signature="e#2631#2632#0" expanded="true" />
-            <element signature="e#2682#2683#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/client/view/adminView/CreditsForUserView.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-274">
-          <caret line="210" column="78" selection-start-line="210" selection-start-column="78" selection-end-line="210" selection-end-column="78" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#2703#2848#0" expanded="true" />
-            <element signature="e#2847#2848#0" expanded="true" />
-            <element signature="e#2885#3042#0" expanded="true" />
-            <element signature="e#3041#3042#0" expanded="true" />
-            <element signature="e#3402#3559#0" expanded="true" />
-            <element signature="e#3558#3559#0" expanded="true" />
-            <element signature="e#3078#3242#0" expanded="true" />
-            <element signature="e#3241#3242#0" expanded="true" />
-            <element signature="e#8339#8340#0" expanded="true" />
-            <element signature="e#8406#8407#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1086,65 +786,28 @@
         </state>
       </provider>
     </entry>
+    <entry file="das://ceb13a94-22b9-4e5a-a553-61a0b8d830d2/schema/bank/table/t_expert" />
     <entry file="file://$PROJECT_DIR$/src/main/java/client/service/Service.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="20">
-          <caret line="104" column="25" selection-start-line="104" selection-start-column="25" selection-end-line="104" selection-end-column="25" />
+          <caret line="114" column="19" selection-start-line="114" selection-start-column="19" selection-end-line="114" selection-end-column="19" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/server/MainServer.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/client/view/userView/ChartViewCredit.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="92" column="47" selection-start-line="92" selection-start-column="47" selection-end-line="92" selection-end-column="47" />
+        <state relative-caret-position="274">
+          <caret line="35" column="131" selection-start-line="35" selection-start-column="131" selection-end-line="35" selection-end-column="131" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/server/CreditDAO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="99" column="70" lean-forward="true" selection-start-line="99" selection-start-column="70" selection-end-line="99" selection-end-column="70" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://ceb13a94-22b9-4e5a-a553-61a0b8d830d2/schema/bank/table/t_expert">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://ceb13a94-22b9-4e5a-a553-61a0b8d830d2/schema/bank/table/t_admin">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://ceb13a94-22b9-4e5a-a553-61a0b8d830d2/schema/bank/table/t_client">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://ceb13a94-22b9-4e5a-a553-61a0b8d830d2/schema/bank/table/t_client_credit">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://ceb13a94-22b9-4e5a-a553-61a0b8d830d2/schema/bank/table/t_credit">
+    <entry file="das://ceb13a94-22b9-4e5a-a553-61a0b8d830d2/schema/bank/table/t_credittype">
       <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
         <state>
           <filtering enabled="true" />
@@ -1158,10 +821,206 @@
         </state>
       </provider>
     </entry>
-    <entry file="das://ceb13a94-22b9-4e5a-a553-61a0b8d830d2/schema/bank/table/t_credittype">
+    <entry file="das://ceb13a94-22b9-4e5a-a553-61a0b8d830d2/schema/bank/table/t_client_credit">
       <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
         <state>
           <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://ceb13a94-22b9-4e5a-a553-61a0b8d830d2/schema/bank/table/t_client">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://ceb13a94-22b9-4e5a-a553-61a0b8d830d2/schema/bank/table/t_admin">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/client/view/adminView/AddCreditView.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="20">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/client/view/adminView/CreditsView.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="181" column="25" lean-forward="true" selection-start-line="181" selection-start-column="25" selection-end-line="181" selection-end-column="25" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#2339#2351#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/client/view/adminView/EditCreditView.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-520">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/client/view/adminView/MainAdminView.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="280">
+          <caret line="73" selection-start-line="73" selection-end-line="73" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#2002#2168#0" expanded="true" />
+            <element signature="e#2631#2632#0" expanded="true" />
+            <element signature="e#2682#2683#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://ceb13a94-22b9-4e5a-a553-61a0b8d830d2/schema/bank/table/t_credit">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/client/view/adminView/UsersView.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="49" column="7" selection-start-line="49" selection-start-column="7" selection-end-line="50" selection-end-column="39" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/client/view/adminView/UserCredit.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-500">
+          <caret line="17" column="34" selection-start-line="17" selection-start-column="34" selection-end-line="17" selection-end-column="34" />
+          <folding>
+            <element signature="e#431#432#0" expanded="true" />
+            <element signature="e#480#481#0" expanded="true" />
+            <element signature="e#520#521#0" expanded="true" />
+            <element signature="e#556#557#0" expanded="true" />
+            <element signature="e#587#588#0" expanded="true" />
+            <element signature="e#636#637#0" expanded="true" />
+            <element signature="e#676#677#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/client/view/userView/AllCreditsView.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="265">
+          <caret line="186" column="46" selection-start-line="186" selection-start-column="46" selection-end-line="186" selection-end-column="46" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/client/view/workerView/MainWorkerView.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="80">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/client/view/userView/AllUsersCreditsView.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-840">
+          <caret line="27" selection-start-line="27" selection-end-line="27" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/client/view/adminView/CreditsForUserView.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="280">
+          <caret line="155" column="5" selection-start-line="155" selection-start-column="5" selection-end-line="155" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/server/ClientDAO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2971">
+          <caret line="174" lean-forward="true" selection-start-line="174" selection-end-line="174" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/server/CreditDAO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3440">
+          <caret line="177" column="5" selection-start-line="177" selection-start-column="5" selection-end-line="177" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/server/MainServer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1529">
+          <caret line="140" column="21" selection-start-line="140" selection-start-column="21" selection-end-line="140" selection-end-column="21" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/server/UserDAO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3000">
+          <caret line="152" column="22" selection-start-line="152" selection-start-column="22" selection-end-line="152" selection-end-column="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/server/AdminDAO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2329">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://DATABASE/ceb13a94-22b9-4e5a-a553-61a0b8d830d2.TABLE:bank.t_user">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>DATABASE</ID>
+          <OriginalElement>ceb13a94-22b9-4e5a-a553-61a0b8d830d2.TABLE:bank.t_user</OriginalElement>
+          <nodes>
+            <node x="-227.04038004750592" y="42.66508313539197">ceb13a94-22b9-4e5a-a553-61a0b8d830d2.TABLE:bank.t_credittype</node>
+            <node x="464.2232779097387" y="0.0">ceb13a94-22b9-4e5a-a553-61a0b8d830d2.TABLE:bank.t_client</node>
+            <node x="740.8812351543942" y="399.75771971496437">ceb13a94-22b9-4e5a-a553-61a0b8d830d2.TABLE:bank.t_admin</node>
+            <node x="232.59144893111636" y="38.37292161520189">ceb13a94-22b9-4e5a-a553-61a0b8d830d2.TABLE:bank.t_client_credit</node>
+            <node x="0.0" y="207.0">ceb13a94-22b9-4e5a-a553-61a0b8d830d2.TABLE:bank.t_user</node>
+            <node x="0.0" y="0.0">ceb13a94-22b9-4e5a-a553-61a0b8d830d2.TABLE:bank.t_credit</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="0.9073275862068966" x="216.5" y="212.0" />
+          <SelectedNodes />
+          <Categories>
+            <Category>Key columns</Category>
+            <Category>Columns</Category>
+          </Categories>
         </state>
       </provider>
     </entry>

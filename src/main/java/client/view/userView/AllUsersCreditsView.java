@@ -25,8 +25,7 @@ public class AllUsersCreditsView extends JFrame {
 
     private JScrollPane scrollPane;
     private JButton back, writeInFileBt, createChartBt;
-    private JComboBox columnNamesBox;
-    private JTextField poiskTextField;
+
 
 
     List<Credit> creditList;
@@ -164,6 +163,7 @@ public class AllUsersCreditsView extends JFrame {
                 printWriter.println("                         Информация по кредитам" + "\n");
                 for (int i = 0; i < table.getRowCount(); i++) {
                     printWriter.println("Кредит: " + (i + 1) + "\n");
+//                    printWriter.println(client.getPassport() "\n");
                     printWriter.println("Цель выдачи кредита: " + tableModel.getValueAt(i, 1) + "\n");
                     printWriter.println("Сумма выдачи($): " + tableModel.getValueAt(i, 2) + "\n");
                     printWriter.println("Процентная ставка(%): " + tableModel.getValueAt(i, 3) + "\n");

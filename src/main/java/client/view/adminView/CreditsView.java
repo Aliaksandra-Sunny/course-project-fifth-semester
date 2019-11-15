@@ -32,7 +32,6 @@ public class CreditsView extends JFrame {
             "Сумма выдачи($)",
             "Процентная ставка(%)",
             "Срок",
-            "На оценке"
     };
 
     String[] columnNamesFind = {
@@ -40,7 +39,6 @@ public class CreditsView extends JFrame {
             "Сумма выдачи",
             "Процентная ставка",
             "Срок",
-            "На оценке"
     };
 
     private Controller controller;
@@ -151,7 +149,6 @@ public class CreditsView extends JFrame {
             array[i][1] = (creditList.get(i).getSum());
             array[i][2] = (creditList.get(i).getPercent());
             array[i][3] = creditList.get(i).getTerm();
-            array[i][4]=creditList.get(i).getAssessment();
 
         }
         for (int i = 0; i < creditList.size(); i++)
@@ -170,7 +167,6 @@ public class CreditsView extends JFrame {
             array[i][1] = (creditList.get(i).getSum());
             array[i][2] = (creditList.get(i).getPercent());
             array[i][3] = creditList.get(i).getTerm();
-            array[i][4]=creditList.get(i).getAssessment();
         }
         for (int i = 0; i < creditList.size(); i++)
             tableModel.addRow(array[i]);
@@ -183,7 +179,6 @@ public class CreditsView extends JFrame {
                 .sum((String) tableModel.getValueAt(row, 1))
                 .percent((String ) tableModel.getValueAt(row, 2))
                 .term((String) tableModel.getValueAt(row, 3))
-                .assessment((String) tableModel.getValueAt(row,4))
                 .build();
         controller.deleteCredit(credit);
         watchAllCredits();

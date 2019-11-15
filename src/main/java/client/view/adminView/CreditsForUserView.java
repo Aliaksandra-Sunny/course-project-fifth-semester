@@ -143,6 +143,8 @@ public class CreditsForUserView extends JFrame {
         tableModel.setRowCount(0);
         creditList.clear();
         clientList.clear();
+        idCredits.clear();
+        idClients.clear();
         creditList = controller.watchAllCreditsForUsers();
         clientList = controller.watchAllClientWithCredit();
         datas = controller.getDatasByCreditAllClients();

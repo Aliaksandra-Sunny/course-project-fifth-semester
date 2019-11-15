@@ -134,7 +134,6 @@ public class CreditDAO extends AbstractDAO {
                         .percent(resSet.getString("t_credit.F_PERCENT"))
                         .sum(resSet.getString("t_credit.F_SUM"))
                         .creditType(resSet.getString("t_credittype.F_TYPENAME"))
-                        .assessment(resSet.getString("t_credit.F_ASSESSMENT"))
                         .build());
                 credits.size();
             }
@@ -155,7 +154,6 @@ public class CreditDAO extends AbstractDAO {
             preparedStatement.setString(2, credit.getPercent());
             preparedStatement.setString(3, credit.getSum());
             preparedStatement.setInt(4, idCreditsType);
-            preparedStatement.setString(5, "Нет");
             preparedStatement.executeUpdate();
             return true;
         } catch (SQLException e) {
@@ -179,20 +177,6 @@ public class CreditDAO extends AbstractDAO {
         return false;
     }
 
-    public boolean deleteCreditForAssessment(Credit credit) {
-        int idCredit = getIdCredit(credit.getTerm(), credit.getPercent(), credit.getSum());
-        try (PreparedStatement preparedStatement1 = connection.prepareStatement(
-                "UPDATE t_credit SET F_ASSESSMENT='Нет' WHERE F_ID=?")) {
-            preparedStatement1.setInt(1, idCredit);
-            preparedStatement1.executeUpdate();
-            return true;
-        } catch (SQLException e) {
-            System.out.println(e.getMessage());
-            e.printStackTrace();
-        }
-        return false;
-    }
-
     public List<Credit> getFindCredit(String columnName, String findString) {
         String sql = getString(columnName, findString);
         List<Credit> credits = new ArrayList<>();
@@ -205,7 +189,6 @@ public class CreditDAO extends AbstractDAO {
                         .percent(resSet.getString("t.F_PERCENT"))
                         .sum(resSet.getString("t.F_SUM"))
                         .creditType(resSet.getString("tcr.F_TYPENAME"))
-                        .assessment(resSet.getString("t.F_ASSESSMENT"))
                         .build());
             }
             return credits;
@@ -226,8 +209,6 @@ public class CreditDAO extends AbstractDAO {
             str2 = "F_SUM";
         } else if (column.equals("Процентная ставка")) {
             str2 = "F_PERCENT";
-        } else if (column.equals("На оценке")) {
-            str2 = "F_ASSESSMENT";
         } else {
             str2 = "F_TERM";
         }
@@ -251,71 +232,6 @@ public class CreditDAO extends AbstractDAO {
         }
         return false;
     }
-
-    public boolean sendCreditForAssessment(Credit credit) {
-        int idCredit = getIdCredit(credit.getTerm(), credit.getPercent(), credit.getSum());
-        int count = 0;
-        count = countCreditForAssessment();
-        if (count < 4) {
-            try (PreparedStatement preparedStatement = connection.prepareStatement(
-                    "UPDATE t_credit SET F_ASSESSMENT=? WHERE F_ID=? ;")) {
-                preparedStatement.setString(1, "Да");
-                preparedStatement.setInt(2, idCredit);
-                preparedStatement.executeUpdate();
-                return true;
-            } catch (SQLException e) {
-                System.out.println(e.getMessage());
-                e.printStackTrace();
-            }
-            return false;
-        } else {
-            return false;
-        }
-    }
-
-    public List<Credit> getAllCreditsForAssessment() {
-        List<Credit> credits = new ArrayList<>();
-        try (PreparedStatement preparedStatement = connection.prepareStatement(
-                "SELECT * FROM t_credit, t_credittype " +
-                        "WHERE t_credit.F_ASSESSMENT='Да' AND  t_credit.F_CREDITTYPE_ID_FK=t_credittype.F_ID; ")) {
-            ResultSet resSet = preparedStatement.executeQuery();
-            while (resSet.next()) {
-                credits.add(Credit.newBuilder()
-                        .idCredit(resSet.getInt("t_credit.F_ID"))
-                        .term(resSet.getString("t_credit.F_TERM"))
-                        .percent(resSet.getString("t_credit.F_PERCENT"))
-                        .sum(resSet.getString("t_credit.F_SUM"))
-                        .creditType(resSet.getString("t_credittype.F_TYPENAME"))
-                        .assessment(resSet.getString("t_credit.F_ASSESSMENT"))
-                        .build());
-                credits.size();
-            }
-            return credits;
-        } catch (SQLException e) {
-            System.out.println(e.getMessage());
-            e.printStackTrace();
-        }
-        return null;
-
-    }
-
-    public int countCreditForAssessment() {
-        int count = 0;
-        try (PreparedStatement preparedStatement = connection.prepareStatement(
-                "SELECT * FROM t_credit " +
-                        "WHERE t_credit.F_ASSESSMENT='Да' ; ")) {
-            ResultSet resSet = preparedStatement.executeQuery();
-            while (resSet.next()) {
-                count++;
-            }
-            return count;
-        } catch (SQLException e) {
-            System.out.println(e.getMessage());
-            e.printStackTrace();
-        }
-        return count;
-    }
-
 
     public List<Credit> watchCreditsByCleient(Client client){
         List<Credit>  credits = new ArrayList<>();

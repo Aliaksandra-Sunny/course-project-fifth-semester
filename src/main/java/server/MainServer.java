@@ -139,28 +139,6 @@ public class MainServer extends Thread {
                     } else {
                         printStream.println("Ошибка в редактировании записи!");
                     }
-                } else if ("SendCreditForAssessment".equals(str)) {
-                    CreditDAO get = new CreditDAO(conn);
-                    Credit credit = (Credit) deserializer.readObject();
-                    if (get.sendCreditForAssessment(credit)) {
-                        printStream.println("Кредит отправлен на оценку!");
-                    } else {
-                        printStream.println("Кол-во кредитов на оценку больше 4!");
-                    }
-                    serializer.flush();
-                } else if ("CreditsForAssessment".equals(str)) {
-                    CreditDAO get = new CreditDAO(conn);
-                    List<Credit> credits = get.getAllCreditsForAssessment();
-                    serializer.writeObject(credits);
-                } else if ("DeleteCreditForAssessment".equals(str)) {
-                    CreditDAO get = new CreditDAO(conn);
-                    Credit credit = (Credit) deserializer.readObject();
-                    if (get.deleteCreditForAssessment(credit)) {
-                        printStream.println("Кредит удален из отправки на оценку!");
-                    } else {
-                        printStream.println("Ошибка при удалении!");
-                    }
-                    serializer.flush();
                 }else if("EditClient".equals(str)){
                     ClientDAO update = new ClientDAO(conn);
                     Client editClient = (Client) deserializer.readObject();

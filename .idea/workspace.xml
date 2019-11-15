@@ -1,28 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ddcd039a-d959-4484-ba18-d936e6849d3c" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/client/record.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/client/record.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/client/view/adminView/CreditsForUserView.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/client/view/adminView/CreditsForUserView.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/client/view/adminView/CreditsView.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/client/view/adminView/CreditsView.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/client/view/userView/AllUsersCreditsView.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/client/view/userView/AllUsersCreditsView.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/client/view/workerView/MainWorkerView.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/server/CreditDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/server/CreditDAO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/server/MainServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/server/MainServer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/client/view/adminView/CreditsView$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/client/view/adminView/CreditsView$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/client/view/adminView/CreditsView$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/client/view/adminView/CreditsView$2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/client/view/adminView/CreditsView$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/client/view/adminView/CreditsView$3.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/client/view/adminView/CreditsView$4.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/client/view/adminView/CreditsView$4.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/client/view/adminView/CreditsView$5.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/client/view/adminView/CreditsView$5.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/client/view/adminView/CreditsView$6.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/client/view/adminView/CreditsView$6.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/client/view/adminView/CreditsView.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/client/view/adminView/CreditsView.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/client/view/userView/AllUsersCreditsView$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/client/view/userView/AllUsersCreditsView$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/client/view/userView/AllUsersCreditsView$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/client/view/userView/AllUsersCreditsView$2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/client/view/userView/AllUsersCreditsView$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/client/view/userView/AllUsersCreditsView$3.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/client/view/userView/AllUsersCreditsView$4.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/client/view/userView/AllUsersCreditsView$4.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/client/view/userView/AllUsersCreditsView.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/client/view/userView/AllUsersCreditsView.class" afterDir="false" />
-    </list>
+    <list default="true" id="ddcd039a-d959-4484-ba18-d936e6849d3c" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -121,7 +100,7 @@
               </nodes>
               <notes />
               <edges />
-              <settings layout="Hierarchic Group" zoom="0.9073275862068966" x="216.5" y="212.0" />
+              <settings layout="Hierarchic Group" zoom="0.9073275862068966" x="113.45011876484557" y="173.97624703087885" />
               <SelectedNodes />
               <Categories>
                 <Category>Key columns</Category>
@@ -542,16 +521,15 @@
       <option name="presentableId" value="Default" />
       <updated>1573637461894</updated>
       <workItem from="1573637463747" duration="56063000" />
-      <workItem from="1573854309782" duration="4515000" />
+      <workItem from="1573854309782" duration="4782000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="60578000" />
+    <option name="totallyTimeSpent" value="60845000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="878" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -562,13 +540,13 @@
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" order="3" weight="0.32942432" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.3625337" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3625337" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.09290188" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.4555256" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2033557" />
-      <window_info active="true" anchor="right" id="Database" order="3" sideWeight="0.49598393" visible="true" weight="0.14899328" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.32885906" />
+      <window_info anchor="right" id="Database" order="3" sideWeight="0.49598393" visible="true" weight="0.14899328" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32884097" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -1015,7 +993,7 @@
           </nodes>
           <notes />
           <edges />
-          <settings layout="Hierarchic Group" zoom="0.9073275862068966" x="216.5" y="212.0" />
+          <settings layout="Hierarchic Group" zoom="0.9073275862068966" x="113.45011876484557" y="173.97624703087885" />
           <SelectedNodes />
           <Categories>
             <Category>Key columns</Category>

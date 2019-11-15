@@ -3,7 +3,7 @@ package client.view.adminView;
 import client.controller.Controller;
 import client.entity.Client;
 import client.entity.Credit;
-import client.entity.User;
+import client.entity.UserCredit;
 
 import javax.swing.*;
 import javax.swing.table.DefaultTableModel;
@@ -13,7 +13,6 @@ import java.awt.*;
 import java.awt.event.*;
 import java.util.ArrayList;
 import java.util.List;
-import java.util.Optional;
 
 public class CreditsForUserView extends JFrame {
     public static CreditsForUserView jframe;

@@ -1,4 +1,4 @@
-package client.view.adminView;
+package client.entity;
 
 import java.util.Objects;
 

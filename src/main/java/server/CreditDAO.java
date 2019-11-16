@@ -148,8 +148,8 @@ public class CreditDAO extends AbstractDAO {
     public boolean addNewCredit(Credit credit) {
         int idCreditsType = getIdCreditsType(credit.getCreditType());
         try (PreparedStatement preparedStatement = connection.prepareStatement(
-                "INSERT INTO t_credit(F_TERM, F_PERCENT, F_SUM, F_CREDITTYPE_ID_FK, F_ASSESSMENT) " +
-                        "VALUES(?,?,?,?,?) ;")) {
+                "INSERT INTO t_credit(F_TERM, F_PERCENT, F_SUM, F_CREDITTYPE_ID_FK) " +
+                        "VALUES(?,?,?,?) ;")) {
             preparedStatement.setString(1, credit.getTerm());
             preparedStatement.setString(2, credit.getPercent());
             preparedStatement.setString(3, credit.getSum());
